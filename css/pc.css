@@ -1,0 +1,124 @@
+			*{
+				padding:0px;
+				margin:0px;
+			}
+			#father{
+				width:1000px;
+				height:600px;
+				margin:0 auto;
+				font-family: 微软雅黑;
+				text-align: center;
+			}
+			header{
+				height: 35px;
+				margin:20px 0px;
+			}
+			header img{
+				float:left;
+			}
+			header img:hover{
+				transition: transform 3s; 
+				transform: scale(1.2) rotate(360deg);
+			}
+			header a:nth-child(2){
+				float:right;
+				width: 110px; 
+				height:25px; 
+				line-height: 25px; 
+				font-size: 12px; 
+				margin:5px auto;
+				color:white;
+				border:none;
+				/*小手*/
+				cursor: pointer;
+				text-align: center;
+				border-radius: 25px; 
+				background: #1aaf5d;
+			}
+			footer button{
+				font-size: 16px;
+				font-weight: bold;
+				margin-top:15px;
+				width:220px; 
+				height:50px; 
+				line-height: 50px; 
+			}
+			.btn{
+				display:block;
+				width:220px;
+				height:50px;
+				color:white;
+				border:none;
+				/*小手*/
+				cursor: pointer;
+				line-height: 50px;
+				text-align: center;
+				border-radius: 25px; 
+				background: #1aaf5d;
+				margin: 10px auto;
+				text-transform: uppercase;
+			}
+			article{
+				display:block;
+				width:80%;
+				padding: 20% 10%;
+				height:100px;
+			}
+			article p{ 
+				height:100px; 
+				/* 如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。 */
+				overflow:auto;
+				font-size:30px;
+				color:#212529;
+				letter-spacing:0.1em;
+			}
+			footer p:first-child{
+				font-size:20px;
+				font-weight: lighter;
+			}
+			footer p:nth-child(3){
+				color:darkgray;
+				line-height: 30px;
+				text-align:center;
+				font-size:12px;
+			}
+			@media screen and (max-width:900px) {
+				#father{
+					width:80%;
+				}
+				article p{
+					font-size:22px;
+				}
+			}
+			/* @media screen and (max-height:600px) {
+				article{
+					padding-top:10%;
+				}
+				article p{
+					font-size:22px;
+				}
+				#father{
+					height:90%;
+				}
+				article p{
+					height:120px; 
+					/* 如果内容被修剪，则浏览器会显示滚动条以便查看其余的内容。 */
+				}
+				/*footer p{
+					font-size:18px;
+				}
+				footer button{
+					font-size: 15px;
+					margin-top:10px;
+					width:160px; 
+					height:30px; 
+					line-height: 30px; 
+				}
+				header button{
+					width: 90px; 
+					font-size:9px;
+					height:23px;
+					line-height:23px;
+					margin:6px auto;
+				}
+			} */

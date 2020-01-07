@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#father {
+	width: 90%;
+	max-width: 360px;
+	margin: 20px auto;
+}
+
+header {
+	width: 90%;
+	height: 25px;
+	margin: 5px auto;
+}
+
+header img {
+	float: left;
+}
+
+header a:nth-child(2) {
+	display: block;
+	float: right;
+	width: 80px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 8px;
+	background: #1aaf5d;
+	/*小手*/
+	cursor: pointer;
+}
+
+#father>a {
+	display: block;
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 13.5px;
+	text-align: center;
+	color: white;
+	border: none;
+	border-radius: 20px;
+	background: #1aaf5d;
+	margin: 10px auto 20px;
+	text-transform: uppercase;
+	/*小手*/
+	cursor: pointer;
+}
+
+section {
+	width: 90%;
+	height: 300px;
+	margin: 30px auto 0px;
+	position: relative;
+	border: solid 1px white;
+}
+
+section>a {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px 8px;
+	border: none;
+	color: white;
+	background: #1aaf5d;
+	display: block;
+	font-size: 14px;
+	/*小手*/
+	cursor: pointer;
+}
+
+section p {
+	display: block;
+	width: 95%;
+	height: 100px;
+	line-height: 25px;
+	letter-spacing: 0.2em;
+	text-align: center;
+	font-size: 20px;
+	margin: 100px auto;
+}
+
+footer {
+	height: 20px;
+	color: darkgray;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+}
+
+#father>p {
+	line-height: 25px;
+	font-size: 13px;
+	text-align: center;
+	font-weight: lighter;
+}
